@@ -1,6 +1,5 @@
-对btrace的命令行封装框架。
-
-目前支持的命令有:<br/>
+bren对btrace的命令行封装框架。
+启动后首先输入本地进程ID,而后输入以下命令:</br>
 <p>
 <ol>
   <li>CALL &lt;full class path&gt; &lt;methodname&gt; [options] 用于调试任何方法的调用,默认显示方法传入参数<br/>
@@ -12,4 +11,8 @@
   参数:<br/>
   agg:对监视结果进行统计.<br/>
 </li>
+</p>
+
+<p>
+输入exit退出
 </p>
